@@ -9,7 +9,7 @@ import {
 } from "recharts";
 import type { Insights } from "@/lib/insights";
 
-const COLORS = { protein: "#869bc7", carbs: "#def50b", fat: "#e75959", ratio: "#7c3aed", cuisine: "#0891b2" };
+const COLORS = { protein: "#f97316", carbs: "#16a34a", fat: "#2563eb", ratio: "#7c3aed", cuisine: "#db2777" };
 
 function Card({ title, children }: { title: string; children: React.ReactNode }) {
   return (
